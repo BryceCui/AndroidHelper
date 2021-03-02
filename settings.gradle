@@ -1,2 +1,13 @@
-include ':sample'
 rootProject.name = "sample"
+
+
+/**
+ * 示例
+ */
+include ':sample'
+
+
+/**
+ * lib文件夹
+ */
+include ':lib:lib-ext'  //kotlin扩展类
