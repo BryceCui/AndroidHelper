@@ -1,3 +1,4 @@
+include ':base-net'
 rootProject.name = "sample"
 
 
@@ -8,6 +9,12 @@ include ':sample'
 
 
 /**
- * lib文件夹
+ * lib依赖
  */
-include ':lib:lib-ext'  //kotlin扩展类
+include ':lib:lib-ext'  //kotlin扩展类lib
+
+
+/**
+ * 基础组件
+ */
+include ':base:base-net'  //网络请求组件
